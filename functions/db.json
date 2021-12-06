@@ -1,19 +1,28 @@
 {
-  "posts": [
+  "products": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "id": "AJDOE",
+      "name": "Hackathon Item 1",
+      "transaction_ref": "hackathonitem_AjdOe",
+      "deposit": 0,
+      "price": 10.0,
+      "costOfItem": 5.0
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": "JUWOA",
+      "name": "Hackathon Item 2",
+      "transaction_ref": "hackathonitem_JuwoA",
+      "deposit": 0,
+      "price": 10.0,
+      "costOfItem": 1.0
+    },
+    {
+      "id": "PPWIP",
+      "name": "Hackathon Item 1",
+      "transaction_ref": "hackathonitem_PPwip",
+      "deposit": 0,
+      "price": 10.0,
+      "costOfItem": 2.5
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

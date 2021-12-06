@@ -2,6 +2,8 @@
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
     "firebase-admin": "~9.1.1",
     "firebase-functions": "^3.11.0",
     "json-server": "^0.16.1",
@@ -9,6 +11,6 @@
   },
   "private": true,
   "engines": {
-    "node": "10"
+    "node": "14"
   }
 }

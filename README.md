@@ -1,22 +1,6 @@
-# firebase-json-server
+The strictest definition of a PoC.
 
-Roll your own [json-server](https://github.com/typicode/json-server) with Google Firebase
+This repo contains a dummy product server and a folder for Firebase functions.
+This application is designed to be run on a schedule, based on the businesses savings setup and requirements, as well as tech stack limitations.
 
-## Requirements
-- [Sign up Firebase & create a new project](https://firebase.google.com/)
-
-## Instructions
-1. Install nodejs with npm (or yarn)
-2. Install [firebase-tools CLI](https://github.com/firebase/firebase-tools) `npm install -g firebase-tools` or `yarn global add firebase-tools`
-3. Clone & cd into this repo
-4. Login to firebase with CLI `firebase login`
-5. Create firebase project `firebase projects:create`, or use existing project `firebase use`
-6. `cd functions && yarn install`
-7. Change `functions/db.json` to suit your needs
-8. Start local json-server with `firebase serve --only=hosting,functions`
-9. Deploy json-server to firebase cloud hosting with `firebase deploy`
-10. Access to url `http://localhost:5000/api/` or `https://yourprojectname.firebaseapp.com/api/`
-
-## Projects
-- [typicode/json-server](https://github.com/typicode/json-server)
-- [firebase/firebase-tools](https://github.com/firebase/firebase-tools)
+The function is designed to (it doesn't actually) run through transactions, roughly calculate the profit portion of the transaction and then transfer that into the savings account designated.
